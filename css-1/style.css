@@ -1,0 +1,27 @@
+p {
+  color: #0000ff;
+}
+.page {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.page h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+.page img {
+  width: 350px;
+  height: 250px;
+}
+.page input {
+  width: 100px;
+  height: 40px;
+}
+#reset {
+  background-color: rgb(165, 42, 42);
+  color: hsl(208, 100%, 97%);
+}
+body {
+  background: linear-gradient(to right, #60a5fa, #a78bfa, #22d3ee);
+  height: 100%;
+}
