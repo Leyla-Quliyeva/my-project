@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(gray, silver);
+  height: 110vh;
+  padding: 150px;
+}
+.card {
+  width: 300px;
+  height: 380px;
+  background-color: white;
+  margin-left: 380px;
+  border: black;
+  border-radius: 20px;
+  position: relative;
+}
+.card img {
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  padding: 15px;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+.card h3 {
+  text-align: center;
+  color: teal;
+}
+.card p {
+  text-align: center;
+  margin-top: 25px;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 100px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  position: relative;
+  top: 35px;
+  left: 20px;
+}
+input {
+  width: 70px;
+  height: 40px;
+  background-color: green;
+  border: green;
+  color: wheat;
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+}
+.footer h3 {
+  text-align: center;
+  padding: 75px;
+}
