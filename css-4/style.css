@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border: 2px solid black;
+  margin-top: 16px;
+  border-radius: 6px;
+  background-color: rgba(255, 222, 204, 1);
+  padding: 12px;
+  width: 100%;
+  height: 48px;
+}
+.text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+.img {
+  margin-top: 4.8px;
+  margin-left: 3.6px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgba(255, 141, 77, 1);
+  height: 66px;
+  gap: 10px;
+  padding: 16px;
+}
+.nav {
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 66px;
+  margin-top: 14px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  height: 66px;
+}
+.home {
+  border: 1px solid black;
+  padding: 20px;
+}
+.about {
+  border: 1px solid black;
+  padding: 20px;
+}
+.academics {
+  border: 1px solid black;
+  padding: 20px;
+}
+.admissions {
+  border: 1px solid black;
+  padding: 20px;
+}
+.Student {
+  border: 1px solid black;
+  padding: 20px;
+}
+.contact {
+  border: 1px solid black;
+  padding: 20px;
+}
+.home:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.about:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.academics:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.admissions:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.Student:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.contact:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.main {
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 368px;
+  box-shadow: 6px 6px 0px 1px rgba(30, 30, 30, 1);
+}
+.general {
+  padding-left: 80px;
+  margin-top: -20px;
+}
+.main-text {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  width: 110px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: medium;
+}
+.main h2 {
+  width: 535px;
+  font-size: 38px;
+  font-weight: 700px;
+  font-family: "Raleway", sans-serif;
+}
+.small-text {
+  width: 535px;
+  height: 168px;
+  margin-top: -40px;
+}
+#banner-one {
+  width: 100%;
+  height: 864px;
+  margin-top: 200px;
+}
+.text-center {
+  width: 100%;
+  height: 178px;
+  text-align: center;
+}
+.text-center h2 {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+}
+.text-center p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  width: 70%;
+  margin: 25px 150px;
+}
+.cards {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding-top: 50px;
+}
+.card {
+  width: 400px;
+  height: 267px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 0px 1px rgba(30, 30, 30, 1);
+  border-radius: 10px;
+  padding: 60px 40px;
+  position: relative;
+  margin-top: 80px;
+}
+.cards .mini-card {
+  width: 56px;
+  height: 56px;
+  background-color: rgba(255, 222, 204, 1);
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+}
+.cards h2 {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.cards p {
+  margin-top: 25px;
+}
+#banner-two {
+  padding-top: 350px;
+}
+.banner-two .card {
+  width: 350px;
+  height: 450px;
+  position: relative;
+}
+.card .shape {
+  position: absolute;
+  top: 0;
+  left: 125px;
+}
+.card .main-img {
+  width: 275px;
+  position: absolute;
+  z-index: 1;
+}
+.card-text {
+  text-align: center;
+}
+.card-text h2 {
+  padding-top: 250px;
+  font-family: "Raleway", sans-serif;
+}
+#banner-three {
+  padding-top: 250px;
+}
+.buttons {
+  margin: 80px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  gap: 20px;
+}
+.buttons .all {
+  width: 52px;
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+.buttons .all:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.buttons .classrooms {
+  width: 117px;
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+.buttons .classrooms:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.buttons .library {
+  width: 88px;
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+.buttons .library:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.buttons .science {
+  width: 118px;
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+.buttons .science:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.buttons .computer {
+  width: 136px;
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+.buttons .computer:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.buttons .garden {
+  width: 211px;
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+.buttons .garden:hover {
+  background-color: rgba(255, 239, 229, 1);
+  cursor: pointer;
+}
+.large-card {
+  margin-top: 240px;
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px 1px rgba(30, 30, 30, 1);
+  position: relative;
+}
+.large-card .cards-img {
+  position: absolute;
+  top: -95px;
+  left: 30px;
+}
+.large-card img {
+  margin-left: 10px;
+}
+.large-text {
+  padding: 175px 45px;
+}
+.large-text h2 {
+  font-size: 34px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.large-text p {
+  padding-top: 15px;
+}
+#footer {
+  text-align: center;
+  padding-top: 150px;
+}
