@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin-top: 50px;
+}
+.logo-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  z-index: 1;
+  padding: 40px 40px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-left: 350px;
+}
+.nav-links a {
+  font-size: 16px;
+  color: rgb(3, 4, 94);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.btn button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(3, 4, 94);
+  color: aliceblue;
+  border: 1px solid rgb(3, 4, 94);
+  border-radius: 5px;
+  margin-left: 55px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn button:hover {
+  width: 110px;
+  height: 50px;
+}
+#main {
+  margin-top: 205px;
+}
+.cards {
+  position: relative;
+  margin: 150px 220px;
+}
+.card-1 {
+  width: 350px;
+  height: 250px;
+  background-color: rgb(19, 20, 109);
+  border-radius: 25px;
+  position: absolute;
+  top: -75px;
+  left: 200px;
+}
+.card-2 {
+  width: 750px;
+  height: 450px;
+  border-radius: 25px;
+  background-color: rgb(153, 7, 7);
+}
+.card-1 img {
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 25px 50px;
+}
+.card-2 h2 {
+  padding-top: 250px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.card-2 button {
+  width: 150px;
+  height: 50px;
+  margin: 50px 300px;
+  background-color: aliceblue;
+  color: rgb(153, 7, 7);
+  border: 1px solid rgb(153, 7, 7);
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.card-2 button:hover {
+  width: 170px;
+  height: 60px;
+}
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  margin-top: 50px;
+  padding: 40px 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.footer h2 {
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
