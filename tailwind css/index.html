@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @layer base {
+        .font-poppins {
+          font-family: "Poppins", sans-serif;
+        }
+        .font-outfit {
+          font-family: "Outfit", sans-serif;
+        }
+        .font-raleway {
+          font-family: "Raleway", sans-serif;
+        }
+      }
+    </style>
+  </head>
+  <body class="container mx-auto max-w-[1200px] bg-[#FFF5F0]">
+    <header
+      class="flex justify-center text-center mt-5 gap-2 border-2 rounded-md p-[14px] bg-[#FFDECC]"
+    >
+      <div class="head">
+        <h2 class="text-base font-semibold font-poppins">
+          Admission is Open, Grab your seat now
+        </h2>
+      </div>
+      <div class="img">
+        <img src="./assets/Icon.svg" alt="icon" />
+      </div>
+    </header>
+
+    <nav>
+      <div class="nav flex justify-between mt-5 border-2 rounded-xl h-[66px]">
+        <div
+          class="logo flex justify-center items-center border-1 rounded-sm p-3 gap-2 bg-[#FF8D4D]"
+        >
+          <img src="./assets/logo.svg" alt="logo" />
+          <h2 class="font-outfit text-lg">Little Learners</h2>
+        </div>
+
+        <div class="nav-links flex justify-between items-center">
+          <div
+            class="home border-1 p-3 h-[66px] flex items-center hover:bg-[#FFEFE5]"
+          >
+            <a class="font-outfit text-base" href="#">Home</a>
+          </div>
+          <div
+            class="about border-1 p-3 h-[66px] flex items-center hover:bg-[#FFEFE5]"
+          >
+            <a class="font-outfit text-base" href="#">About Us</a>
+          </div>
+          <div
+            class="academics border-1 p-3 h-[66px] flex items-center hover:bg-[#FFEFE5]"
+          >
+            <a class="font-outfit text-base" href="#">Academics</a>
+          </div>
+          <div
+            class="admissions border-1 p-3 h-[66px] flex items-center hover:bg-[#FFEFE5]"
+          >
+            <a class="font-outfit text-base" href="#">Admissions</a>
+          </div>
+          <div
+            class="Student border-1 p-3 h-[66px] flex items-center hover:bg-[#FFEFE5]"
+          >
+            <a class="font-outfit text-base" href="#">Student Life</a>
+          </div>
+          <div
+            class="contact border-1 h-[66px] rounded-sm p-3 flex items-center hover:bg-[#FFEFE5]"
+          >
+            <a class="font-outfit text-base" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main">
+      <div class="main flex justify-start py-[50px] gap-6">
+        <div class="main-img shrink-0">
+          <img
+            class="w-[550px] h-[650px]"
+            src="./assets/main-img.svg"
+            alt="main-img"
+          />
+        </div>
+
+        <div class="main-text py-[100px] px-[15px]">
+          <h3
+            class="font-outfit underline decoration-2 underline-offset-8 text-xl font-medium"
+          >
+            Welcome to Little Learners Academy
+          </h3>
+
+          <h2 class="font-raleway font-extrabold text-[40px] my-5">
+            Where Young Minds Blossom and
+            <span class="text-[#FF8D4D]"> Dreams Take Flight.</span>
+          </h2>
+          <p class="font-outfit font-medium">
+            Our kinder garden school provides a nurturing and stimulating
+            environment, fostering a love for learning that lasts a lifetime.
+            Join us as we embark on an exciting educational journey together!
+          </p>
+
+          <div
+            class="btn my-[50px] border-2 rounded-md h-[120px] w-[630px] bg-[#FFEFE5] shadow-[8px_8px_0px_1px_#FFBE99]"
+          >
+            <div class="big flex justify-between my-[10px] font-extrabold">
+              <h2 class="font-outfit text-[34px] mx-[55px]">+7000</h2>
+              <h2 class="font-outfit text-[34px] mx-[65px]">+37</h2>
+              <h2 class="font-outfit text-[34px] mx-[75px]">+15</h2>
+            </div>
+            <div
+              class="small flex justify-center items-center gap-10 font-medium"
+            >
+              <p class="font-outfit">Students Passed Out</p>
+              <p class="font-outfit">Awards & Recognitions</p>
+              <p class="font-outfit">Experience Educators</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="banner-one ">
+      <div class="top m-[100px] text-center">
+        <button
+          class="px-5 py-3 border-2 rounded-md font-outfit font-medium text-[16px] bg-[white]"
+        >
+          Children Deserve Bright Future
+        </button>
+        <h2 class="py-6 font-raleway text-[58px] font-bold">Our Benefits</h2>
+        <p class="font-outfit font-medium">
+          With a dedicated team of experienced educators, state-of-the-art
+          facilities, and a comprehensive curriculum, we aim to lay a strong
+          foundation for your child's future.
+        </p>
+      </div>
+
+      <div class="bottom">
+        <div class="cards flex justify-between items-center gap-10">
+          <div
+            class="card border-2 w-[480px] h-[280px] rounded-2xl shadow-[6px_6px_0px_2px_#1E1E1E] relative bg-[white]"
+          >
+            <div
+              class="mini-card border-1 w-[54px] h-[54px] rounded-xl bg-[#FFDECC] absolute top-[-30px] left-[35px] p-3"
+            >
+              <img src="./assets/card1.svg" alt="card1" />
+            </div>
+            <h2 class="font-raleway font-bold text-[20px] px-[50px] pt-[70px]">
+              Holistic Learning Approach
+            </h2>
+            <p class="font-outfit font-medium px-[50px] mt-[25px]">
+              Our curriculum focuses on nurturing cognitive, social, emotional,
+              and physical development, ensuring a well-rounded education.
+            </p>
+          </div>
+
+          <div
+            class="card border-2 w-[480px] h-[280px] rounded-2xl shadow-[6px_6px_0px_2px_#1E1E1E] relative bg-[white]"
+          >
+            <div
+              class="mini-card border-1 w-[54px] h-[54px] rounded-xl bg-[#FFDECC] absolute top-[-30px] left-[35px] p-3"
+            >
+              <img src="./assets/card2.svg" alt="card2" />
+            </div>
+            <h2 class="font-raleway font-bold text-[20px] px-[50px] pt-[70px]">
+              Experienced Educators
+            </h2>
+            <p class="font-outfit font-medium px-[50px] mt-[25px]">
+              Our passionate and qualified teachers create a supportive and
+              stimulating learning environment.
+            </p>
+          </div>
+
+          <div
+            class="card border-2 w-[480px] h-[280px] rounded-2xl shadow-[6px_6px_0px_2px_#1E1E1E] relative bg-[white]"
+          >
+            <div
+              class="mini-card border-1 w-[54px] h-[54px] rounded-xl bg-[#FFDECC] absolute top-[-30px] left-[35px] p-3"
+            >
+              <img src="./assets/card3.svg" alt="card3" />
+            </div>
+            <h2 class="font-raleway font-bold text-[20px] px-[50px] pt-[70px]">
+              Nurturing Environment
+            </h2>
+            <p class="font-outfit font-medium px-[50px] mt-[25px]">
+              We prioritize safety and provide a warm and caring atmosphere for
+              every child.
+            </p>
+          </div>
+        </div>
+
+        <div class="cards flex justify-between items-center gap-10 my-[80px]">
+          <div
+            class="card border-2 w-[510px] h-[250px] rounded-2xl shadow-[6px_6px_0px_2px_#1E1E1E] relative bg-[white]"
+          >
+            <div
+              class="mini-card border-1 w-[54px] h-[54px] rounded-xl bg-[#FFDECC] absolute top-[-30px] left-[35px] p-3"
+            >
+              <img src="./assets/card4.svg" alt="card4" />
+            </div>
+            <h2 class="font-raleway font-bold text-[20px] px-[50px] pt-[70px]">
+              Play-Based Learning
+            </h2>
+            <p class="font-outfit font-medium px-[50px] mt-[25px]">
+              We believe in the power of play to foster creativity,
+              problem-solving skills, and imagination.
+            </p>
+          </div>
+
+          <div
+            class="card border-2 w-[510px] h-[250px] rounded-2xl shadow-[6px_6px_0px_2px_#1E1E1E] relative bg-[white]"
+          >
+            <div
+              class="mini-card border-1 w-[54px] h-[54px] rounded-xl bg-[#FFDECC] absolute top-[-30px] left-[35px] p-3"
+            >
+              <img src="./assets/card5.svg" alt="card5" />
+            </div>
+            <h2 class="font-raleway font-bold text-[20px] px-[50px] pt-[70px]">
+              Individualized Attention
+            </h2>
+            <p class="font-outfit font-medium px-[50px] mt-[25px]">
+              Our small class sizes enable personalized attention, catering to
+              each child's unique needs.
+            </p>
+          </div>
+
+          <div
+            class="card border-2 w-[510px] h-[250px] rounded-2xl shadow-[6px_6px_0px_2px_#1E1E1E] relative bg-[white]"
+          >
+            <div
+              class="mini-card border-1 w-[54px] h-[54px] rounded-xl bg-[#FFDECC] absolute top-[-30px] left-[35px] p-3"
+            >
+              <img src="./assets/card6.svg" alt="card6" />
+            </div>
+            <h2 class="font-raleway font-bold text-[20px] px-[50px] pt-[70px]">
+              Parent Involvement
+            </h2>
+            <p class="font-outfit font-medium px-[50px] mt-[25px]">
+              We foster a strong parent-school partnership to ensure seamless
+              communication and collaboration.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner-two">
+      <div class="top mt-[300px] text-center">
+        <button
+          class="px-5 py-3 border-2 rounded-md font-outfit font-medium text-[16px] bg-[white]"
+        >
+          Their Happy Words 🤗
+        </button>
+        <h2 class="py-6 font-raleway text-[58px] font-bold">
+          Our Testimonials
+        </h2>
+        <p class="font-outfit font-medium w-[70%] mx-[170px]">
+          Our testimonials are heartfelt reflections of the nurturing
+          environment we provide, where children flourish both academically and
+          emotionally.
+        </p>
+      </div>
+
+      <div class="cards flex justify-center items-center gap-10 mt-[100px]">
+        <div
+          class="card border-2 rounded-2xl w-[400px] h-[420px] shadow-[6px_6px_0px_2px_#1E1E1E] bg-[white] relative"
+        >
+          <div
+            class="mini-card border-1 rounded-[100%] w-[80px] h-[80px] bg-[#FFF5F0] absolute top-[45px] left-[145px] p-3"
+          >
+            <img src="./assets/image1.svg" alt="image1" />
+          </div>
+          <h2
+            class="font-outfit font-semibold text-center mt-[150px] text-[20px]"
+          >
+            Jennifer B
+          </h2>
+          <img
+            class="mx-[110px] my-[30px]"
+            src="./assets/star.svg"
+            alt="star"
+          />
+          <p class="font-outfit font-medium text-[16px] text-center p-3">
+            Little Learners Academy has been a second home for my child. The
+            caring staff and engaging programs have made her excited to go to
+            school every day!
+          </p>
+        </div>
+
+        <div
+          class="card border-2 rounded-2xl w-[400px] h-[420px] shadow-[6px_6px_0px_2px_#1E1E1E] bg-[white] relative"
+        >
+          <div
+            class="mini-card border-1 rounded-[100%] w-[80px] h-[80px] bg-[#FFF5F0] absolute top-[45px] left-[145px] p-3"
+          >
+            <img src="./assets/image2.svg" alt="image2" />
+          </div>
+          <h2
+            class="font-outfit font-semibold text-center mt-[150px] text-[20px]"
+          >
+            David K
+          </h2>
+          <img
+            class="mx-[110px] my-[30px]"
+            src="./assets/star.svg"
+            alt="star"
+          />
+          <p class="font-outfit font-medium text-[16px] text-center p-3">
+            Choosing Little Learners Academy for my daughter was the best
+            decision. She has thrived in their nurturing and stimulating
+            environment.
+          </p>
+        </div>
+
+        <div
+          class="card border-2 rounded-2xl w-[400px] h-[420px] shadow-[6px_6px_0px_2px_#1E1E1E] bg-[white] relative"
+        >
+          <div
+            class="mini-card border-1 rounded-[100%] w-[80px] h-[80px] bg-[#FFF5F0] absolute top-[45px] left-[145px] p-3"
+          >
+            <img src="./assets/image3.svg" alt="image3" />
+          </div>
+          <h2
+            class="font-outfit font-semibold text-center mt-[150px] text-[20px]"
+          >
+            Emily L
+          </h2>
+          <img
+            class="mx-[110px] my-[30px]"
+            src="./assets/star.svg"
+            alt="star"
+          />
+          <p class="font-outfit font-medium text-[16px] text-center p-3">
+            My son's social and academic growth has been remarkable since
+            joining Little Learners Academy. I am grateful for the supportive
+            and dedicated teachers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner-three">
+      <div class="top mt-[300px] text-center">
+        <button
+          class="px-5 py-3 border-2 rounded-md font-outfit font-medium text-[16px] bg-[white]"
+        >
+          Solutions For The Doubts
+        </button>
+        <h2 class="py-6 font-raleway text-[58px] font-bold">
+          Frequently Asked Questions
+        </h2>
+        <p class="font-outfit font-medium w-[70%] mx-[170px]">
+          Find all the essential information you need in our FAQ section,
+          designed to address the most frequently asked questions and help you
+          make informed decisions for your child's education.
+        </p>
+      </div>
+
+      <div class="general flex justify-between items-center gap-[75px]">
+        <div class="left m-[-55px]">
+          <div class="cards mt-[120px]">
+            <div
+              class="card w-[650px] h-[220px] border-2 rounded-xl bg-[white]"
+            >
+              <div class="top flex justify-between">
+                <h3 class="font-outfit font-semibold p-[30px]">
+                  What are the school hours at Little Learners Academy?
+                </h3>
+                <div
+                  class="mini-card w-[40px] h-[40px] border-2 rounded-md bg-[#FFF5F0] my-5 mx-[50px]"
+                >
+                  <img class="p-2" src="./assets/negative.svg" alt="negative" />
+                </div>
+              </div>
+
+              <hr class="w-[80%] h-[1px] border-1 mx-[30px]" />
+              <p class="font-outfit font-medium text-[16px] w-[90%] p-[30px]">
+                Our school hours are from 8:00 AM to 3:00 PM, Monday to Friday.
+                We also offer extended care options for parents who need early
+                drop-off or late pick-up.
+              </p>
+            </div>
+
+            <div class="card w-[650px] h-[90px] border-2 rounded-xl mt-[25px]">
+              <div class="top flex justify-between">
+                <h3 class="font-outfit font-semibold p-[35px]">
+                  Is there a uniform policy for students?
+                </h3>
+                <div
+                  class="mini-card w-[40px] h-[40px] border-2 rounded-md bg-[#FFF5F0] my-5 mx-[50px]"
+                >
+                  <img class="p-2" src="./assets/plus.svg" alt="plus" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card w-[650px] h-[90px] border-2 rounded-xl mt-[25px]">
+              <div class="top flex justify-between">
+                <h3 class="font-outfit font-semibold p-[35px]">
+                  What extracurricular activities are available for students?
+                </h3>
+                <div
+                  class="mini-card w-[40px] h-[40px] border-2 rounded-md bg-[#FFF5F0] my-5 mx-[50px]"
+                >
+                  <img class="p-2" src="./assets/plus.svg" alt="plus" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card w-[650px] h-[90px] border-2 rounded-xl mt-[25px]">
+              <div class="top flex justify-between">
+                <h3 class="font-outfit font-semibold p-[35px]">
+                  What extracurricular activities are available for students?
+                </h3>
+                <div
+                  class="mini-card w-[40px] h-[40px] border-2 rounded-md bg-[#FFF5F0] my-5 mx-[50px]"
+                >
+                  <img class="p-2" src="./assets/plus.svg" alt="plus" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="card w-[650px] h-[90px] border-2 rounded-xl mt-[25px]">
+            <div class="top flex justify-between">
+              <h3 class="font-outfit font-semibold p-[35px]">
+                How do you handle food allergies and dietary restrictions?
+              </h3>
+              <div
+                class="mini-card w-[40px] h-[40px] border-2 rounded-md bg-[#FFF5F0] my-5 mx-[50px]"
+              >
+                <img class="p-2" src="./assets/plus.svg" alt="plus" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-[650px] h-[90px] border-2 rounded-xl mt-[25px]">
+            <div class="top flex justify-between">
+              <h3 class="font-outfit font-semibold p-[20px]">
+                What is the teacher-to-student ratio at Little Learners Academy?
+              </h3>
+              <div
+                class="mini-card w-[40px] h-[40px] border-2 rounded-md bg-[#FFF5F0] my-5 mx-[50px]"
+              >
+                <img class="p-2" src="./assets/plus.svg" alt="plus" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-[650px] h-[90px] border-2 rounded-xl mt-[25px]">
+            <div class="top flex justify-between">
+              <h3 class="font-outfit font-semibold p-[35px]">
+                How do you handle discipline and behavior management?
+              </h3>
+              <div
+                class="mini-card w-[40px] h-[40px] border-2 rounded-md bg-[#FFF5F0] my-5 mx-[50px]"
+              >
+                <img class="p-2" src="./assets/plus.svg" alt="plus" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-[650px] h-[90px] border-2 rounded-xl mt-[25px]">
+            <div class="top flex justify-between">
+              <h3 class="font-outfit font-semibold p-[35px]">
+                How do I apply for admission to Little Learners Academy?
+              </h3>
+              <div
+                class="mini-card w-[40px] h-[40px] border-2 rounded-md bg-[#FFF5F0] my-5 mx-[50px]"
+              >
+                <img class="p-2" src="./assets/plus.svg" alt="plus" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner-four">
+      <div class="top mt-[300px] text-center">
+        <button
+          class="px-5 py-3 border-2 rounded-md font-outfit font-medium text-[16px] bg-[white]"
+        >
+          Explore More
+        </button>
+        <h2 class="py-6 font-raleway text-[58px] font-bold">
+          Navigate through our Pages
+        </h2>
+        <p class="font-outfit font-medium w-[70%] mx-[170px]">
+          Your gateway to discovering a wealth of valuable information about our
+          kindergarten school, Feel free to explore and learn more about the
+          enriching experiences that await your child at our kindergarten school
+        </p>
+      </div>
+
+      <div class="top">
+        <div class="cards flex justify-between mx-[70px]">
+          <div
+            class="card w-[500px] h-[450px] border-1 rounded-xl mt-[100px] shadow-[6px_6px_0px_2px_#1E1E1E] bg-[white]"
+          >
+            <h2 class="font-raleway font-bold text-[38px] p-10 text-center">
+              About Us
+            </h2>
+            <img
+              class="w-[400px] mx-[50px] my-[-15px]"
+              src="./assets/icon2.svg"
+              alt="icon2"
+            />
+            <p
+              class="font-outfit font-medium text-[16px] py-15 px-5 text-center"
+            >
+              Discover our Mission, Values, and our unwavering commitment to
+              providing the best learning experience for your child. Learn about
+              our passionate educators and our engaging approach to early
+              education.
+            </p>
+            <div
+              class="btn flex justify-center gap-2 border-2 w-[410px] p-3 rounded-md my-[20px] mx-10 bg-[#FFDECC]"
+            >
+              <button class="font-outfit font-medium text-[16px]">
+                Learn More
+              </button>
+              <img src="./assets/Icon.svg" alt="icon1" />
+            </div>
+          </div>
+
+          <div
+            class="card w-[500px] h-[450px] border-1 rounded-xl mt-[100px] shadow-[6px_6px_0px_2px_#1E1E1E] bg-[white]"
+          >
+            <h2 class="font-raleway font-bold text-[38px] p-10 text-center">
+              Academics
+            </h2>
+            <img
+              class="w-[400px] mx-[50px] my-[-15px]"
+              src="./assets/icon2.svg"
+              alt="icon2"
+            />
+            <p
+              class="font-outfit font-medium text-[16px] py-15 px-5 text-center"
+            >
+              Delve into our comprehensive academic programs designed to
+              stimulate young minds, foster creativity, and encourage a love for
+              learning. Explore our well-rounded curriculum that nurtures both
+              intellectual and social development.
+            </p>
+            <div
+              class="btn flex justify-center gap-2 border-2 w-[410px] p-3 rounded-md my-[20px] mx-10 bg-[#FFDECC]"
+            >
+              <button class="font-outfit font-medium text-[16px]">
+                Learn More
+              </button>
+              <img src="./assets/Icon.svg" alt="icon1" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="cards flex justify-between mx-[70px]">
+          <div
+            class="card w-[500px] h-[450px] border-1 rounded-xl mt-[50px] shadow-[6px_6px_0px_2px_#1E1E1E] bg-[white]"
+          >
+            <h2 class="font-raleway font-bold text-[38px] p-10 text-center">
+              Student Life
+            </h2>
+            <img
+              class="w-[400px] mx-[50px] my-[-15px]"
+              src="./assets/icon2.svg"
+              alt="icon2"
+            />
+            <p
+              class="font-outfit font-medium text-[16px] py-15 px-5 text-center"
+            >
+              Peek into the vibrant and enriching world of Student Life at
+              Little Learners Academy. Discover the array of extracurricular
+              activities, arts and crafts, sports, and social events that make
+              our school experience truly memorable.
+            </p>
+            <div
+              class="btn flex justify-center gap-2 border-2 w-[410px] p-3 rounded-md my-[20px] mx-10 bg-[#FFDECC]"
+            >
+              <button class="font-outfit font-medium text-[16px]">
+                Learn More
+              </button>
+              <img src="./assets/Icon.svg" alt="icon1" />
+            </div>
+          </div>
+
+          <div
+            class="card w-[500px] h-[450px] border-1 rounded-xl mt-[50px] shadow-[6px_6px_0px_2px_#1E1E1E] bg-[white]"
+          >
+            <h2 class="font-raleway font-bold text-[38px] p-10 text-center">
+              Admissions
+            </h2>
+            <img
+              class="w-[400px] mx-[50px] my-[-15px]"
+              src="./assets/icon2.svg"
+              alt="icon2"
+            />
+            <p
+              class="font-outfit font-medium text-[16px] py-15 px-5 text-center"
+            >
+              Learn about our Enrollment Process and how to secure your child's
+              place at Little Learners Academy. Find information about our
+              admission requirements, application deadlines, and available
+              spaces.
+            </p>
+            <div
+              class="btn flex justify-center gap-2 border-2 w-[410px] p-3 rounded-md my-[20px] mx-10 bg-[#FFDECC]"
+            >
+              <button class="font-outfit font-medium text-[16px]">
+                Learn More
+              </button>
+              <img src="./assets/Icon.svg" alt="icon1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div
+        class="footer mt-[200px] border-2 rounded-md shadow-[6px_6px_0px_2px_#1E1E1E] w-[100%] h-[570px] bg-[white]"
+      >
+        <div class="foot flex">
+          <div class="left m-[50px]">
+            <div class="logo-box p-5 flex justify-start items-center gap-2">
+              <img src="./assets/logo.svg" alt="logo" />
+              <h2 class="text font-poppins font-medium text-[17px]">
+                Little Learners
+              </h2>
+            </div>
+
+            <div class="foot-text">
+              <p
+                class="text-[16px] font-outfit font-medium px-[20px] py-[5px] text-[#4C4C4D]"
+              >
+                We believe in the power of play to foster creativity,
+                problem-solving skills, and imagination.
+              </p>
+            </div>
+
+            <div class="foot-cards my-[30px] mx-[25px]">
+              <div
+                class="foot-card flex justify-start items-center gap-3 my-[15px]"
+              >
+                <img
+                  class="border-1 rounded-sm w-[35px] h-[35px] p-2 bg-[#FFF5F0]"
+                  src="./assets/envelope.svg"
+                  alt="envelope"
+                />
+                <p class="font-outfit font-medium text-[16px]">
+                  hello@littlelearners.com
+                </p>
+              </div>
+              <div
+                class="foot-card flex justify-start items-center gap-3 my-[15px]"
+              >
+                <img
+                  class="border-1 rounded-sm w-[35px] h-[35px] p-2 bg-[#FFF5F0]"
+                  src="./assets/phone.svg"
+                  alt="phone"
+                />
+                <p class="font-outfit font-medium text-[16px]">
+                  +91 91813 23 2309
+                </p>
+              </div>
+              <div
+                class="foot-card flex justify-start items-center gap-3 my-[15px]"
+              >
+                <img
+                  class="border-1 rounded-sm w-[35px] h-[35px] p-2 bg-[#FFF5F0]"
+                  src="./assets/navigation.svg"
+                  alt="navigation"
+                />
+                <p class="font-outfit font-medium text-[16px]">
+                  Somewhere in the World
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="right flex justify-center mx-[25px]">
+            <div
+              class="right-box flex justify-center gap-16 my-[80px] font-outfit font-medium"
+            >
+              <div class="Home link space-y-5">
+                <h2 class="text-[18px]">Home</h2>
+                <p class="text-[16px] text-[#333333]">Features</p>
+                <p class="text-[16px] text-[#333333] whitespace-nowrap">
+                  Our Testimonials
+                </p>
+                <p class="text-[16px] text-[#333333]">FAQ</p>
+              </div>
+
+              <div class="About link space-y-5">
+                <h2 class="text-[18px]">About Us</h2>
+                <p class="text-[16px] text-[#333333]">Our Mission</p>
+                <p class="text-[16px] text-[#333333]">Our Vission</p>
+                <p class="text-[16px] text-[#333333] whitespace-nowrap">
+                  Awards and Recognitions
+                </p>
+                <p class="text-[16px] text-[#333333]">History</p>
+                <p class="text-[16px] text-[#333333]">Teachers</p>
+              </div>
+
+              <div class="Academics link space-y-5">
+                <h2 class="text-[18px]">Academics</h2>
+                <p class="text-[16px] text-[#333333] whitespace-nowrap">
+                  Special Features
+                </p>
+                <p class="text-[16px] text-[#333333]">Gallery</p>
+              </div>
+
+              <div class="Contact link space-y-5">
+                <h2 class="text-[18px]">Contact Us</h2>
+                <p class="text-[16px] text-[#333333]">Information</p>
+                <p class="text-[16px] text-[#333333] whitespace-nowrap">
+                  Map & Direction
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="line w-[90%] mx-[60px]" />
+        <div
+          class="finish flex justify-start gap-5 p-4 font-outfit font-medium mx-[50px] relative"
+        >
+          <h3>Terms of Service</h3>
+          <h3>Privacy Policy</h3>
+          <h3>Cookie Policy</h3>
+
+          <div
+            class="mini-cards flex justify-between items-end gap-2 absolute right-[10px] my-[-5px]"
+          >
+            <div
+              class="mini-card border-1 rounded-sm bg-[#FFDECC] w-[40px] h-[40px]"
+            >
+              <img class="p-2.5" src="./assets/facebook.svg" alt="facebook" />
+            </div>
+
+            <div
+              class="mini-card border-1 rounded-sm bg-[#FFDECC] w-[40px] h-[40px]"
+            >
+              <img class="p-2.5" src="./assets/twitter.svg" alt="twitter" />
+            </div>
+
+            <div
+              class="mini-card border-1 rounded-sm bg-[#FFDECC] w-[40px] h-[40px]"
+            >
+              <img class="p-2.5" src="./assets/instagram.svg" alt="instagram" />
+            </div>
+          </div>
+        </div>
+        <hr class="line w-[90%] mx-[60px]" />
+        <div class="son">
+          <h2 class="font-medium font-outfit text-center text-[#656567] m-3">
+            Copyright © [2023] Little Learners Academy. All rights reserved.
+          </h2>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
